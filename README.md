@@ -88,7 +88,7 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 
 也可以自定义图标，在`IconJson/icon.json`中修改
 
-`./fje -f ../json/example.json -s rectangle -i json-defined`
+`./fje -f ../json/example.json -s rectangle -i json_defined`
 
 树形风格
 
