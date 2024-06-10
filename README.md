@@ -70,9 +70,9 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 
 
 ## 使用方法
-`git clone https://github.com/monkek123King/FJE.git`
+`git clone -b master https://github.com/monkek123King/FJE.git`
 
-`cd FJE2`
+`cd FJE`
 
 `mkdir build`
 
