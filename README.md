@@ -49,14 +49,6 @@ FJE可以快速切换**风格**（style），包括：树形（tree）、矩形�
 poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤                 
 ```
 
-
-
-## 领域模型
-
-![domain-model](Funny JSON Explorer 领域模型.png)
-
-
-
 ## 作业要求
 
 基于上述需求描述和领域模型，按照设计模式要求，进行软件设计，并编码实现（任何语言均可）。
@@ -72,7 +64,23 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 3. 源代码库：公开可访问的Github repo URL
 
 
-
 ## 参考资料
 
 1. unicode 制表符与图标： https://unicode.yunser.com/
+
+
+## 使用方法
+`git clone `
+`cd FJE2`
+`mkdir build`
+`cd build`
+`cmake ..`
+`make`
+
+执行矩阵风格，图标为默认的poker-face
+`./fje -f ../json/example.json -s rectangle -i poker-face`
+也可以自定义图标，在`IconJson/icon.json`中修改
+`./fje -f ../json/example.json -s rectangle -i json-defined`
+
+树形风格
+`./fje -f ../json/example.json -s rectangle -i poker-face`
