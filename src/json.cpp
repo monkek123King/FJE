@@ -4,7 +4,7 @@
 void JsonObject::add(const std::string& key, std::shared_ptr<JsonElement> value) {
     jsonNode node = {key, value};
     jsonNodes.emplace_back(node);
-}
+}1
 
 std::shared_ptr<AbsIterator> JsonObject::getIterator() {
     return std::make_shared<JsonIterator>(jsonNodes);
