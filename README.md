@@ -21,3 +21,7 @@
 也可以自定义图标，在配置文件`IconJson/icon.json`中修改
 
 `./fje -f ../json/example.json -s rectangle -i json_defined`
+
+树形风格
+
+`./fje -f ../json/example.json -s rectangle -i poker-face`
