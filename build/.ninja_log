@@ -1,0 +1,6 @@
+# ninja log v5
+0	658	1718354759647941536	CMakeFiles/fje.dir/src/icon.cpp.o	ea2f891e4c921756
+1	562	1718355596021861629	CMakeFiles/fje.dir/src/visualization.cpp.o	14e3ede1f299f59c
+1	572	1718355596033861427	CMakeFiles/fje.dir/src/JsonLoader.cpp.o	e3ad054fc88f982a
+1	535	1718356262250646051	CMakeFiles/fje.dir/src/style.cpp.o	24fe7714c3754588
+1	743	1718356952299029424	CMakeFiles/fje.dir/main.cpp.o	3b89e609e73afa49

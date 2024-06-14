@@ -44,9 +44,17 @@ int main(int argc, char* argv[]) {
     } else if (icon_family_name == "json_defined") {
         std::shared_ptr<JsonLoader> Json_loader;
         auto json_data = Json_loader->loadJson("../IconJson/icon.json");
-        const auto* obj = dynamic_cast<const JsonObject*>(json_data.get());
-        const auto& keys = obj->getKeys();
-        const auto& values = obj->getValues();
+        auto* obj = dynamic_cast<JsonObject*>(json_data.get());
+        // const auto& keys = obj->getKeys();
+        // const auto& values = obj->getValues();
+        auto iter = obj->getIterator();
+        std::vector<std::string> keys;
+        std::vector<std::shared_ptr<JsonElement>> values;
+        while(iter->hasNext()) {
+            const auto& jsonNode = iter->getNext();
+            keys.emplace_back(jsonNode.key);
+            values.emplace_back(jsonNode.value);
+        }
 
         std::string internalNodeIcon, leafNodeIcon;
         if (keys[0] == "internalNodeIcon" && keys[1] == "leafNodeIcon") {

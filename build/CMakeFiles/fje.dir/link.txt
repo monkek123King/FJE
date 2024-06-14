@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/fje.dir/main.cpp.o CMakeFiles/fje.dir/src/json.cpp.o CMakeFiles/fje.dir/src/icon.cpp.o CMakeFiles/fje.dir/src/style.cpp.o CMakeFiles/fje.dir/src/visualization.cpp.o CMakeFiles/fje.dir/src/JsonLoader.cpp.o  -o fje 
