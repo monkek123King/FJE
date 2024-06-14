@@ -2,7 +2,7 @@
 在第一版的基础上，加了两个设计模式：迭代器+策略模式
 
 ## 使用方法
-`git clone -b master https://github.com/monkek123King/FJE.git`
+`git clone -b FJE_2 https://github.com/monkek123King/FJE.git`
 
 `cd FJE`
 
