@@ -92,4 +92,4 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 
 树形风格
 
-`./fje -f ../json/example.json -s rectangle -i poker-face`
+`./fje -f ../json/example.json -s tree -i poker-face`
